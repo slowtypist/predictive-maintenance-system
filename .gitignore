@@ -1,5 +1,26 @@
-.venv/ 
-lib/ 
-__pycache__/ 
-*.keras 
-*.csv 
+# Environments
+.venv/
+env/
+venv/
+ENV/
+lib/
+bin/
+include/
+
+# Python/System leftovers
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Data (Crucial to ignore huge CSVs)
+*.csv
+data/
+
+# Optional: If you want to keep the model files on GitHub, 
+# DO NOT list *.keras or *.pkl here. 
+# If you want to HIDE them, uncomment the lines below:
+# *.keras
+# *.pkl
+node_modules/
+**/node_modules/
