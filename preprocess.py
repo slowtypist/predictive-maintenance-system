@@ -32,7 +32,7 @@ def clean_data():
     if os.path.exists(train_path):
         df = pd.read_csv(train_path, sep='\s+', header=None, names=col_names)
         
-        # Calculate RUL: The engine fails at the last cycle for each ID
+        # Calculate RUL: The asset fails at the last cycle for each ID
         # So RUL = (Max Cycle for that ID) - (Current Cycle)
         max_cycle = df.groupby('id')['cycle'].transform('max')
         df['RUL'] = max_cycle - df['cycle']
