@@ -37,3 +37,9 @@ This project is a collaborative effort by the following team members:
 
 @Sudeepthi822 (Data Scientist & ML Engineer)
 Contributions: Core LSTM engine development, industrial robotics domain refactoring, time-series feature engineering, and production-ready script optimization.
+
+@slowtypist (Lead Data Scientist & Frontend Architect)
+Contributions: ML Model training, predict_engine.py architecture, React Dashboard development, and system design.
+
+@Shivareddy8008 (Back end& S ecurity Engineer)
+Contributions: Backend API Bridge, Authentication logic, Database schema, and Input validation.
