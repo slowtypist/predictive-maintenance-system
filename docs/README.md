@@ -31,3 +31,9 @@ High Accuracy: Achieved a Mean Absolute Error (MAE) of 16.53, providing reliable
 - `train_lstm.py`: Model architecture and training logic.
 - `visualize_results.py`: Evaluation metrics and graph generation.
 - `preprocess_lstm.py`: Data sequencing and integrity utilities.
+
+👥 The Team: Zaalima Development
+This project is a collaborative effort by the following team members:
+
+@Sudeepthi822 (Data Scientist & ML Engineer)
+Contributions: Core LSTM engine development, industrial robotics domain refactoring, time-series feature engineering, and production-ready script optimization.
