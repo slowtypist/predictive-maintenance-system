@@ -33,6 +33,10 @@ High Accuracy: Achieved a Mean Absolute Error (MAE) of 16.53, providing reliable
 - `preprocess_lstm.py`: Data sequencing and integrity utilities.
 
 ## 👥 **Team: Zaalima Development**
+<<<<<<< HEAD:README.md
+=======
+This project is a collaborative effort by the following team members:
+>>>>>>> 52394ad678481376647508f27ef5eb1bdcede864:docs/README.md
 
 @Sudeepthi822 (Data Scientist & ML Engineer)
 Contributions: Core LSTM engine development, industrial robotics domain refactoring, time-series feature engineering, and production-ready script optimization.
@@ -41,4 +45,8 @@ Contributions: Core LSTM engine development, industrial robotics domain refactor
 Contributions: ML Model training, predict_engine.py architecture, React Dashboard development, and system design.
 
 @Shivareddy8008 (Back end& S ecurity Engineer)
+<<<<<<< HEAD:README.md
 Contributions: Backend API Bridge, Authentication logic, Database schema, and Input validation.
+=======
+Contributions: Backend API Bridge, Authentication logic, Database schema, and Input validation.
+>>>>>>> 52394ad678481376647508f27ef5eb1bdcede864:docs/README.md
