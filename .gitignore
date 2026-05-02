@@ -1,11 +1,9 @@
-# Environments
+# Environments & Virtual Envs
 .venv/
 env/
 venv/
 ENV/
-lib/
-bin/
-include/
+.env
 
 # Python/System leftovers
 __pycache__/
@@ -13,14 +11,11 @@ __pycache__/
 .DS_Store
 .vscode/
 
-# Data (Crucial to ignore huge CSVs)
+# Data & Models
 *.csv
 data/
+# model.pkl  <-- Uncomment this if you want to hide models from GitHub
 
-# Optional: If you want to keep the model files on GitHub, 
-# DO NOT list *.keras or *.pkl here. 
-# If you want to HIDE them, uncomment the lines below:
-# *.keras
-# *.pkl
+# Web Development
 node_modules/
 **/node_modules/
