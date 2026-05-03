@@ -13,9 +13,18 @@ __pycache__/
 
 # Data & Models
 *.csv
-data/
-# model.pkl  <-- Uncomment this if you want to hide models from GitHub
+# We keep the .txt file in Git ONLY if the backend guy needs it to test.
+# If it's too large, keep it ignored:
+data/*.txt
+# DO NOT ignore the model because the backend needs it!
+!models/factory_guard_brain.joblib
 
 # Web Development
 node_modules/
 **/node_modules/
+
+# --- PROJECT CLEANUP: ARCHIVES ---
+# These folders stay on YOUR computer but won't be "active" for the backend guy
+# Note: These will still be in history, but hidden from the main workspace
+archive folder/
+backend logic old/
